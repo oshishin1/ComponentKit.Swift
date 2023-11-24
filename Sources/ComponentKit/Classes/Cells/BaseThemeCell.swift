@@ -4,8 +4,8 @@ import UIKit
 import ThemeKit
 
 open class BaseThemeCell: UITableViewCell {
-    public static let leftInset: CGFloat = .margin16
-    public static let rightInset: CGFloat = .margin16
+    public static let leftInset: CGFloat = 0
+    public static let rightInset: CGFloat = 0
     public static let middleInset: CGFloat = .margin16
 
     public let wrapperView = BorderedView()
