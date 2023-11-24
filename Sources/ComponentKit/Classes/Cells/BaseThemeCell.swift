@@ -170,7 +170,7 @@ open class BaseThemeCell: UITableViewCell {
     public static func margin(backgroundStyle: BackgroundStyle) -> UIEdgeInsets {
         switch backgroundStyle {
         case .lawrence, .bordered, .externalBorderOnly:
-            return UIEdgeInsets(top: 0, left: .margin16, bottom: 0, right: .margin16)
+            return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         case .transparent:
             return UIEdgeInsets.zero
         }
