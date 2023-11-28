@@ -51,8 +51,8 @@ open class PrimaryButton: UIButton {
             setBackgroundColor(.themeRed50, for: .highlighted)
             setBackgroundColor(.themeSteel20, for: .disabled)
         case .gray:
-            setBackgroundColor(.themeLeah, for: .normal)
-            setBackgroundColor(.themeNina, for: .highlighted)
+            setBackgroundColor(.themeLawrence, for: .normal)
+            setBackgroundColor(.themeLawrence.withAlphaComponent(0.8), for: .highlighted)
             setBackgroundColor(.themeSteel20, for: .disabled)
         case .transparent:
             setBackgroundColor(.clear, for: .normal)
@@ -66,8 +66,8 @@ open class PrimaryButton: UIButton {
             setTitleColor(.themeBran, for: .highlighted)
             setTitleColor(.themeGray50, for: .disabled)
         case .red, .gray:
-            setTitleColor(.themeClaude, for: .normal)
-            setTitleColor(.themeClaude, for: .highlighted)
+            setTitleColor(.themeBran, for: .normal)
+            setTitleColor(.themeBran, for: .highlighted)
             setTitleColor(.themeGray50, for: .disabled)
         case .transparent:
             setTitleColor(.themeLeah, for: .normal)
