@@ -62,8 +62,8 @@ open class PrimaryButton: UIButton {
 
         switch style {
         case .yellow:
-            setTitleColor(.themeDark, for: .normal)
-            setTitleColor(.themeDark, for: .highlighted)
+            setTitleColor(.themeBran, for: .normal)
+            setTitleColor(.themeBran, for: .highlighted)
             setTitleColor(.themeGray50, for: .disabled)
         case .red, .gray:
             setTitleColor(.themeClaude, for: .normal)
@@ -79,8 +79,8 @@ open class PrimaryButton: UIButton {
         case .icon(let image):
             switch style {
             case .yellow:
-                setImage(image?.withTintColor(.themeDark), for: .normal)
-                setImage(image?.withTintColor(.themeDark), for: .highlighted)
+                setImage(image?.withTintColor(.themeBran), for: .normal)
+                setImage(image?.withTintColor(.themeBran), for: .highlighted)
                 setImage(image?.withTintColor(.themeGray50), for: .disabled)
             case .red, .gray:
                 setImage(image?.withTintColor(.themeClaude), for: .normal)
